@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <h1>E-Learning Platform</h1>
+        <nav>
+            <ul>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#progress">Progress</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Learn Anytime, Anywhere</h2>
+        <p>Explore our interactive courses and track your progress.</p>
+        <a href="#courses" class="btn">Browse Courses</a>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses">
+        <h2>Available Courses</h2>
+        <div class="course-container">
+            <div class="course">
+                <img src="https://via.placeholder.com/300" alt="Course 1">
+                <h3>Web Development</h3>
+                <p>Learn HTML, CSS, and JavaScript.</p>
+                <button class="enroll-btn">Enroll Now</button>
+            </div>
+            <div class="course">
+                <img src="https://via.placeholder.com/300" alt="Course 2">
+                <h3>Python Programming</h3>
+                <p>Master Python for data science and web development.</p>
+                <button class="enroll-btn">Enroll Now</button>
+            </div>
+            <div class="course">
+                <img src="https://via.placeholder.com/300" alt="Course 3">
+                <h3>React.js Basics</h3>
+                <p>Build interactive web applications with React.</p>
+                <button class="enroll-btn">Enroll Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Progress Tracking -->
+    <section id="progress">
+        <h2>Track Your Progress</h2>
+        <div class="progress-container">
+            <p>Web Development</p>
+            <progress value="50" max="100"></progress>
+            <p>Python Programming</p>
+            <progress value="30" max="100"></progress>
+            <p>React.js Basics</p>
+            <progress value="20" max="100"></progress>
+        </div>
+    </section>
+
+    <!-- Video Embedding -->
+    <section id="video">
+        <h2>Course Preview</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions? Reach out to us!</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 E-Learning Platform | Follow us on:
+            <a href="#">LinkedIn</a> |
+            <a href="#">GitHub</a> |
+            <a href="#">Twitter</a>
+        </p>
+    </footer>
+
+</body>
+</html>
