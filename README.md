@@ -96,3 +96,4 @@ Final Project Summary
 
 OUTPUT:
 
+![Image](https://github.com/user-attachments/assets/178ab102-0490-480a-845a-b4af75d637e4)
